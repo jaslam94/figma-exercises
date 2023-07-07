@@ -12,7 +12,7 @@
     />
     <link href="./login-1.css" rel="stylesheet" />
   </head>
-  <body style="height: 100vh">
+  <body>
     <nav class="navbar">
       <div class="container-fluid">
         <a
@@ -24,37 +24,37 @@
       </div>
     </nav>
     <div class="container px-5">
-      <div class="row">
-        <div class="col-md-8 left-col">
-          <div class="row mb-4">
-            <div class="col">
-              <h1 style="font-weight: bold" class="py-2">Sign in to</h1>
-              <h4 style="font-size: 35px">Lorem Ipsum is simply</h4>
-            </div>
+      <div
+        class="row justify-content-around align-items-center"
+        style="height: 90vh"
+      >
+        <div class="col-md-8">
+          <div class="mb-4">
+            <h1 style="font-weight: bold" class="py-2">Sign in to</h1>
+            <h4 style="font-size: 35px">Lorem Ipsum is simply</h4>
           </div>
-          <div class="row py-4">
-            <div class="col-md-5">
-              <div class="pt-2" style="font-size: 16px">
-                If you don’t have an account register.<br />
-                You can
-                <span class="text-primary" style="font-weight: bold"
-                  >Register here!</span
-                >
-              </div>
+          <div class="d-flex py-4">
+            <div class="pt-2" style="font-size: 16px">
+              If you don’t have an account register.<br />
+              You can
+              <span class="text-primary" style="font-weight: bold"
+                >Register here!</span
+              >
             </div>
-            <div class="col-md-7">
+            <div>
               <img
                 src="/login-1/assets/images/saly-14.png"
                 alt="image"
-                class="image"
+                class=""
+                style="position: absolute; top: 395px; width: 15%"
               />
             </div>
           </div>
         </div>
-        <div class="col-md-4 right-col">
+        <div class="col-md-4">
           <h4 class="mb-4">Sign in</h4>
           <form>
-            <div class="mb-4">
+            <div class="mb-4 form-group">
               <input
                 class="form-control px-3 border-0"
                 type="text"
@@ -62,24 +62,24 @@
                 placeholder="Enter email or user name"
               />
             </div>
-
-            <div class="mb-2">
+            <div class="mb-3 form-group">
               <input
-                class="form-control px-3 mb-2 border-0"
+                class="form-control px-3 border-0"
                 type="text"
                 name="Password"
                 placeholder="Password"
               />
-              <a href="#" class="text-decoration-none form-text float-end"
+            </div>
+            <div class="mb-5 form-group text-end">
+              <a href="#" class="text-decoration-none" style="color: #b5b5b5"
                 >Forgot Password?</a
               >
             </div>
-
-            <div class="d-grid gap-2 mt-5">
+            <div class="form-group">
               <input
                 type="submit"
                 value="Login"
-                class="btn btn-primary btn-login shadow-lg"
+                class="btn btn-primary btn-login w-100"
               />
             </div>
           </form>
